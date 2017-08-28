@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.srjc.afinal.kyle.moulton.podomatic.Controller.AddRssFeedController">
+   <children>
+      <Label layoutX="50.0" layoutY="75.0" text="RSS Feed URL:" AnchorPane.topAnchor="30.0" />
+      <TextField fx:id="feedUrl" layoutX="150.0" layoutY="71.0" minWidth="250.0" AnchorPane.topAnchor="26.0" />
+      <ButtonBar layoutX="275.0" layoutY="106.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#handleAddRssFeed" text="Add" />
+            <Button mnemonicParsing="false" onAction="#handleBack" text="Back" />
+        </buttons>
+      </ButtonBar>
+      <Label fx:id="resultMessage" layoutX="22.0" layoutY="65.0" prefHeight="75.0" prefWidth="278.0" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="65.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxWidth="340.0" minHeight="100.0" minWidth="340.0" style="-fx-border-width: 2px; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="podcastImage" fitHeight="90.0" fitWidth="90.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="4.0" />
+      <Label fx:id="podcastTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="38.0" text="Series Title" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="63.0" mnemonicParsing="false" onAction="#deleteSeries" text="Delete" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
